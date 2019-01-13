@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "node"
-before_deploy: cd deploy && node deploy.js
+before_deploy: ( cd deploy && node deploy.js )
 deploy:
   provider: releases
   api_key:
