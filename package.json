@@ -1,0 +1,19 @@
+{
+  "name": "zip-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan-Nolan/zip-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan-Nolan/zip-test/issues"
+  },
+  "homepage": "https://github.com/Dan-Nolan/zip-test#readme"
+}
