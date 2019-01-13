@@ -3,7 +3,7 @@ node_js:
   - "node"
 deploy:
   provider: releases
-  before_deploy: deploy.js
+  before_deploy: node deploy.js
   api_key:
     secure: jYNyJpd5uTaxoWZ/pmRaS6cUjDJVAz+IQ1NqbwJIWMH2T5DkJ26+aj4JCibVVM0fLhbpNgi3PZvKpeLIHk8OKNWUH2qdANhDe8ColpNvXbhj5nwYwUNWlqE9byk+nedwlGkXbmcMPNiMYRwWZclv//MyTa11Zspu5qbllJs3gngVC83o+toFQfX+OcD36qHzOm9vH8qc/aJqiTqC5HLB8dWX2W0PRPvQ3Tk3MgG0ca8gSgvEaPFsmKs+ifiTnvDdvqC5xa9yMxnnld6rFZrEk91v93lbFuL9WP0oq+ziHWt0F1gxBg5kIUXBzEDpYXJFEj36/qAbClNNTJickHNJwmAHYb46Y0I11MNICDfw4MsQTcP0pUssPdhAFFVbOo7Z1yvmR8OO9VmMxcNk7JINyjsTze/Z611UVuheZ59KZRS46WQSo3BQjgFS6sXrfsDhtnEOCMx7eemAalqhmr0zFjXs+JQShU7UFjJvlM2Q9zK/HiALDu4CHyU9i009umwCOnF0V9SlKOOvnNnOmErwKPeg7wJpmzRW6TKRTH5gO/vqxV+SYtanySL1Y23GdHpGwbOjGo4ic+8tcUwU+hAXZSnM/DfsbpbHy4/Li0Ol3ZuTTdtciSPI/+BT7ryEc0GEUNUlTufiUWg08sJGSt1rCjjXmrx3X0gJqkkldC4Dh2s=
   file: upload.zip
