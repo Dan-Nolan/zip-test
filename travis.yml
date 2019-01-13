@@ -1,0 +1,6 @@
+deploy:
+  provider: releases
+  file: "pizza.js"
+  skip_cleanup: true
+  on:
+    tags: true
