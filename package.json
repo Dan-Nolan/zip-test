@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Dan-Nolan/zip-test/issues"
   },
-  "homepage": "https://github.com/Dan-Nolan/zip-test#readme"
+  "homepage": "https://github.com/Dan-Nolan/zip-test#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "fs-extra": "^7.0.1"
+  }
 }
